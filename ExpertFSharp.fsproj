@@ -58,6 +58,8 @@
     <Compile Include="ListComprehensions\FromCollectionToCollection.fs" />
     <Compile Include="ListComprehensions\IterateTwoDimensions.fs" />
     <Compile Include="ListComprehensions\YieldListComprehension.fs" />
+    <Compile Include="Types\ExampleTypeAlias.fs" />
+    <Compile Include="Types\RecordTypesExample.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Core">
