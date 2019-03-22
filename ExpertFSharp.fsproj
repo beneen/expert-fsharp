@@ -60,6 +60,8 @@
     <Compile Include="ListComprehensions\YieldListComprehension.fs" />
     <Compile Include="Types\ExampleTypeAlias.fs" />
     <Compile Include="Types\RecordTypesExample.fs" />
+    <Compile Include="Types\PatternMatchingRecords.fs" />
+    <Compile Include="Types\UnionSumTypes.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Core">
