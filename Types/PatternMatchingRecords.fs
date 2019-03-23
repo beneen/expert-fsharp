@@ -1,11 +1,9 @@
 ﻿module PatternMatchingRecords
 
 // type representing a couple
-
 type Couple = { him : string ; her : string }
 
 // list of couples
-
 let couples = 
     [ { him = "brad"; her = "angelina"};
       { him = "becks" ; her = "posh" };
@@ -13,7 +11,6 @@ let couples =
       { him = "michael" ; her = "catherine" } ]
 
 // function to find david from a list of couples
-
 let rec findDavid l = 
     match l with
     | { him = x ; her = "posh"} :: tail -> x
@@ -27,6 +24,5 @@ let rec findPartner soughtHer l =
     | [] -> failwith "couldnt find him"
 
 // print
-
 printfn "%A" (findDavid couples)
 printfn "%A" (findPartner "posh" couples)

@@ -1,15 +1,12 @@
 ﻿module RecordTypesExample
 
 // define an organisation with unique fields
-
 type Organisation1 = { boss: string; lackeys: string list}
 
 // create isntance of this organisation
-
 let rainbow = { boss = "Jeffrey"; lackeys = ["Zippy"; "George"; "Bungle"] }
 
 // define two organisations with overlapping fields
-
 type Organisation2 = { cheif : string; underlings : string list}
 type Organisation3 = { cheif: string; indians: string list}
 
