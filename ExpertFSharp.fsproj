@@ -63,6 +63,9 @@
     <Compile Include="Types\PatternMatchingRecords.fs" />
     <Compile Include="Types\UnionSumTypes.fs" />
     <Compile Include="Types\PatternMatchingOverUnionTypes.fs" />
+    <Compile Include="Types\TypeDefinitionsWithTypeParameters.fs" />
+    <Compile Include="Types\RecursiveTypeDefinitions.fs" />
+    <Compile Include="ActivePatterns\CompleteActivePatterns.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Core">
