@@ -1,6 +1,5 @@
 ﻿module PartialActivePattern
 open System.Text.RegularExpressions
-open System
 
 // use similar syntax to a complete active pattern 
 // a partial active pattern has only one case name which is placed between banana brackets
