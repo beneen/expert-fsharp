@@ -68,6 +68,8 @@
     <Compile Include="ActivePatterns\CompleteActivePatterns.fs" />
     <Compile Include="ActivePatterns\PartialActivePattern.fs" />
     <Compile Include="UnitsOfMeasure\UnitsOfMeasure.fs" />
+    <Compile Include="ExceptionsAndExceptionHandling\RaisingExceptionsWith.fs" />
+    <Compile Include="ExceptionsAndExceptionHandling\RaisingExceptionsFinally.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Core">
