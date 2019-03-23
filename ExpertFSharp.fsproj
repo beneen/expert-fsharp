@@ -66,6 +66,8 @@
     <Compile Include="Types\TypeDefinitionsWithTypeParameters.fs" />
     <Compile Include="Types\RecursiveTypeDefinitions.fs" />
     <Compile Include="ActivePatterns\CompleteActivePatterns.fs" />
+    <Compile Include="ActivePatterns\PartialActivePattern.fs" />
+    <Compile Include="UnitsOfMeasure\UnitsOfMeasure.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Core">
