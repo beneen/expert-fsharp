@@ -62,6 +62,7 @@
     <Compile Include="Types\RecordTypesExample.fs" />
     <Compile Include="Types\PatternMatchingRecords.fs" />
     <Compile Include="Types\UnionSumTypes.fs" />
+    <Compile Include="Types\PatternMatchingOverUnionTypes.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Core">
