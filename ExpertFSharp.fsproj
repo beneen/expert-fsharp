@@ -71,6 +71,8 @@
     <Compile Include="ExceptionsAndExceptionHandling\RaisingExceptionsWith.fs" />
     <Compile Include="ExceptionsAndExceptionHandling\RaisingExceptionsFinally.fs" />
     <Compile Include="LazyEvaluation\SimpleLazyEvaluation.fs" />
+    <Compile Include="LazyEvaluation\LazyListDefinition.fs" />
+    <Compile Include="LazyEvaluation\LazyFibonacci.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Core">
