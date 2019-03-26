@@ -73,6 +73,10 @@
     <Compile Include="LazyEvaluation\SimpleLazyEvaluation.fs" />
     <Compile Include="LazyEvaluation\LazyListDefinition.fs" />
     <Compile Include="LazyEvaluation\LazyFibonacci.fs" />
+    <Compile Include="UnitType\UnitTypeExample.fs" />
+    <Compile Include="MutableKeyword\MutableIdentifier.fs" />
+    <Compile Include="MutableKeyword\RedefiningDemo.fs" />
+    <Compile Include="MutableKeyword\MutableRecords.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Core">

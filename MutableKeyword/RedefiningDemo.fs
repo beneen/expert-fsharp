@@ -1,0 +1,25 @@
+﻿module RedefiningDemo
+
+// demonstration of redefining (visible only within scope)
+
+let redefineX() = 
+    let x = "One"
+    printfn "Redefining:\r\nx = %s" x 
+    if true then
+        let x = "Two"
+        printfn "x = %s" x
+    printfn "x = %s" x
+
+// demo of mutating X (visible outside scope)
+
+let mutableX() = 
+    let mutable x = "One"
+    printfn "Mutating:\r\nx = %s" x
+    if true then
+        x <- "Two"
+        printfn "x = %s" x
+    printfn "x = %s" x
+
+// run the demos
+redefineX()
+mutableX()
