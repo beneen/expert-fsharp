@@ -77,6 +77,8 @@
     <Compile Include="MutableKeyword\MutableIdentifier.fs" />
     <Compile Include="MutableKeyword\RedefiningDemo.fs" />
     <Compile Include="MutableKeyword\MutableRecords.fs" />
+    <Compile Include="ReferenceType\RefTypeArray.fs" />
+    <Compile Include="ReferenceType\RefTypeMutableBetweenSeveralFunctions.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Core">
