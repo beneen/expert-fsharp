@@ -81,6 +81,10 @@
     <Compile Include="ReferenceType\RefTypeMutableBetweenSeveralFunctions.fs" />
     <Compile Include="Arrays\ArraySyntax.fs" />
     <Compile Include="Arrays\JaggedLiterals.fs" />
+    <Compile Include="Arrays\RectangularArray.fs" />
+    <Compile Include="Arrays\JaggedVsRectangular.fs" />
+    <Compile Include="Arrays\ArrayComprehension.fs" />
+    <Compile Include="Arrays\ArraySlicing.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Core">
