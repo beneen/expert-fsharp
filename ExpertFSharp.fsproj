@@ -79,6 +79,8 @@
     <Compile Include="MutableKeyword\MutableRecords.fs" />
     <Compile Include="ReferenceType\RefTypeArray.fs" />
     <Compile Include="ReferenceType\RefTypeMutableBetweenSeveralFunctions.fs" />
+    <Compile Include="Arrays\ArraySyntax.fs" />
+    <Compile Include="Arrays\JaggedLiterals.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Core">
