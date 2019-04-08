@@ -85,6 +85,9 @@
     <Compile Include="Arrays\JaggedVsRectangular.fs" />
     <Compile Include="Arrays\ArrayComprehension.fs" />
     <Compile Include="Arrays\ArraySlicing.fs" />
+    <Compile Include="ImperativeControlFlow\IfControlFlowExamples.fs" />
+    <Compile Include="ImperativeControlFlow\ForControlFlowExamples.fs" />
+    <Compile Include="ImperativeControlFlow\WhileControlFlowExamples.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Core">
