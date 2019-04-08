@@ -91,6 +91,8 @@
     <Compile Include="StaticMethodsAndPropertiesFrom.Net\CallingNonFSharpLibraries.fs" />
     <Compile Include="StaticMethodsAndPropertiesFrom.Net\PassingAsParameters.fs" />
     <Compile Include="StaticMethodsAndPropertiesFrom.Net\CurryingNetMethods.fs" />
+    <Compile Include="ObjectsAsInstanceMembersFrom.Net\InstantiateObjects.fs" />
+    <Compile Include="ObjectsAsInstanceMembersFrom.Net\SetPropertiesInConstructor.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Core">
