@@ -88,6 +88,9 @@
     <Compile Include="ImperativeControlFlow\IfControlFlowExamples.fs" />
     <Compile Include="ImperativeControlFlow\ForControlFlowExamples.fs" />
     <Compile Include="ImperativeControlFlow\WhileControlFlowExamples.fs" />
+    <Compile Include="StaticMethodsAndPropertiesFrom.Net\CallingNonFSharpLibraries.fs" />
+    <Compile Include="StaticMethodsAndPropertiesFrom.Net\PassingAsParameters.fs" />
+    <Compile Include="StaticMethodsAndPropertiesFrom.Net\CurryingNetMethods.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Core">
