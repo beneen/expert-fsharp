@@ -101,6 +101,9 @@
     <Compile Include="PatternMatchingOver.NetTypes\PatternMatchingOverListOfObjects.fs" />
     <Compile Include="PatternMatchingOver.NetTypes\PatternMatchingIncludingValue.fs" />
     <Compile Include="PatternMatchingOver.NetTypes\UsingLibrariesAndExceptions.fs" />
+    <Compile Include="PipeForwardOperator\Definition.fs" />
+    <Compile Include="PipeForwardOperator\PlacingOperator.fs" />
+    <Compile Include="PipeForwardOperator\FunctionChaining.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Core">
