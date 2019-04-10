@@ -93,6 +93,11 @@
     <Compile Include="StaticMethodsAndPropertiesFrom.Net\CurryingNetMethods.fs" />
     <Compile Include="ObjectsAsInstanceMembersFrom.Net\InstantiateObjects.fs" />
     <Compile Include="ObjectsAsInstanceMembersFrom.Net\SetPropertiesInConstructor.fs" />
+    <Compile Include="ObjectsAsInstanceMembersFrom.Net\UsingDelegates.fs" />
+    <Compile Include="ObjectsAsInstanceMembersFrom.Net\NotUsingDelegates.fs" />
+    <Compile Include="IndexersFrom.Net\AccessingProperties.fs" />
+    <Compile Include="EventsFrom.Net\HandlersDemo.fs" />
+    <Compile Include="EventsFrom.Net\HandlersViaDelegate.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Core">

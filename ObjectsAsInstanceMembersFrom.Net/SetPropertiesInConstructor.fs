@@ -11,3 +11,4 @@ let file =
         Some(new FileInfo(filename, Attributes = FileAttributes.ReadOnly))
     else
         None
+
