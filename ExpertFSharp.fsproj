@@ -98,6 +98,9 @@
     <Compile Include="IndexersFrom.Net\AccessingProperties.fs" />
     <Compile Include="EventsFrom.Net\HandlersDemo.fs" />
     <Compile Include="EventsFrom.Net\HandlersViaDelegate.fs" />
+    <Compile Include="PatternMatchingOver.NetTypes\PatternMatchingOverListOfObjects.fs" />
+    <Compile Include="PatternMatchingOver.NetTypes\PatternMatchingIncludingValue.fs" />
+    <Compile Include="PatternMatchingOver.NetTypes\UsingLibrariesAndExceptions.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Core">
