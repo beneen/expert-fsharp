@@ -104,6 +104,7 @@
     <Compile Include="PipeForwardOperator\Definition.fs" />
     <Compile Include="PipeForwardOperator\PlacingOperator.fs" />
     <Compile Include="PipeForwardOperator\FunctionChaining.fs" />
+    <Compile Include="RecordsAsObjects\DrawingShapes.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Core">
@@ -112,6 +113,7 @@
     <Reference Include="mscorlib" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Numerics" />
     <Reference Include="System.ValueTuple">
       <HintPath>packages\System.ValueTuple.4.4.0\lib\net461\System.ValueTuple.dll</HintPath>

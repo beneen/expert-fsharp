@@ -4,7 +4,7 @@
 
 let methods = System.AppDomain.CurrentDomain.GetAssemblies()
                 |> List.ofArray
-                |> List.map(fun assm -> assm.GetTypes() )
+                |> List.map(fun assm -> assm.GetTypes())
                 |> Array.concat
                 |> List.ofArray
                 |> List.map (fun t -> t.GetMethods())
@@ -12,3 +12,4 @@ let methods = System.AppDomain.CurrentDomain.GetAssemblies()
 
 // print the list
 printfn "%A" methods
+
